@@ -1,5 +1,5 @@
 # Node modules and cache
-node_modules/
+node_modules
 .npm
 
 # Logs
@@ -10,8 +10,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Test coverage etc.
-coverage/
-.nyc_output/
+coverage
+.nyc_output
 junit.xml
 
 # Code editors
@@ -28,3 +28,4 @@ tags.*
 
 # Eleventy output
 dist
+src/_js

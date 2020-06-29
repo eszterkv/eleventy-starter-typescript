@@ -1,4 +1,9 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const navigation_1 = __importDefault(require("../components/navigation"));
 module.exports = ({ title, content }) => `
   <!doctype html>
   <html>
@@ -9,7 +14,12 @@ module.exports = ({ title, content }) => `
       <link rel="stylesheet" href="/main.bundle.css" />
     </head>
     <body>
-      ${content}
+      <header>
+        ${navigation_1.default}
+      </header>
+      <main>
+        ${content}
+      </main>
     </body>
   </html>
 `;
