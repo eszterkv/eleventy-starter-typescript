@@ -6,7 +6,7 @@ module.exports = function(config) {
   })
 
   return {
-    templateFormats: ['md', 'jpg', 'png', 'gif'],
+    templateFormats: ['md', 'njk', 'jpg', 'png', 'gif'],
     dir: {
       input: 'src',
       output: 'dist',

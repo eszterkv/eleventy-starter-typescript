@@ -1,0 +1,17 @@
+---
+layout: base.11ty.js
+title:  Blog
+permalink: /blog/
+---
+
+<h1>Blog</h1>
+
+<ul>
+  {% for post in collections.posts | reverse %}
+    <li>
+      <a href="{{ post.url | url }}">
+        {{ post.data.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

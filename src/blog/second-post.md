@@ -1,6 +1,9 @@
 ---
 layout: post.11ty.js
-title: Baz qux
+title:  11ty is awesome
+date:   2020-06-29
 ---
 
-Yo yo
+This post has a random photo in it.
+
+![A random placeholder image](https://source.unsplash.com/random/600x400)

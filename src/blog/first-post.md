@@ -1,7 +1,7 @@
 ---
 layout: post.11ty.js
-title:  Foo
+title:  Having fun with TypeScript
 date:   2020-06-28
 ---
 
-Foo bar
+This is a sample blog post.
