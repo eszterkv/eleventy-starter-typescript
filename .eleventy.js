@@ -9,7 +9,7 @@ module.exports = function(config) {
     templateFormats: ['md', 'njk', 'jpg', 'png', 'gif'],
     dir: {
       input: 'src',
-      output: 'dist',
+      output: '_site',
       layouts: '_js/layouts',
     }
   }
