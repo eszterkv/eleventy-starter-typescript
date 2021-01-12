@@ -27,5 +27,6 @@ tags.*
 .DS_Store
 
 # Eleventy output
+_site
 dist
 src/_js
